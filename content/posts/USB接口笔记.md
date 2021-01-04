@@ -12,12 +12,12 @@ draft: false
 
 ## 母头
 
-![母头](o_2003130107041920px-USB_Type-C_Receptacle_Pinout母头.svg.png)
+![母头](../static/o_2003130107041920px-USB_Type-C_Receptacle_Pinout%E6%AF%8D%E5%A4%B4.svg.png)
 
 ## 公头
 
-![公头](1165246-20200313090434306-212715822.png)
+![公头](../static/1165246-20200313090434306-212715822.png)
 
 ## 引脚定义
 
-![typec引脚](o_200313010758typec引脚.jpg)
+![typec引脚](../static/o_200313010758typec%E5%BC%95%E8%84%9A.jpg)
