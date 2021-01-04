@@ -1,7 +1,8 @@
 ---
-title: 'My First Post'
+title: 'USB接口的定义'
 date: 2021-01-4T17:18:05+01:00
 draft: false
+post_asset_folder: true
 ---
 
 因为打算自己画电路板，所以提前预习一下USB接口的定义，做一些笔记
