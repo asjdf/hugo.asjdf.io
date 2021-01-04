@@ -2,5 +2,3 @@ baseURL = "https://homeboyc.cn/"
 languageCode = "zh-cn"
 title = "宅男的天台"
 theme = "ananke"
-
-post_asset_folder = true
