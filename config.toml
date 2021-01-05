@@ -1,7 +1,6 @@
 baseURL = "https://homeboyc.cn/"
 languageCode = "zh-cn"
 title = "宅男的天台"
-author = "asjdf"
 theme = "hugo-tranquilpeak-theme"
 builddrafts = false
 canonifyurls = true
