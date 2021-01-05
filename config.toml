@@ -38,7 +38,7 @@ dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "宅男的天台 asjdf的天台"
 email                  = "homeboyc@foxmail.com"
-extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+# extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
 faviconfile            = "img/leaf.ico"
 github                 = "//github.com/asjdf"
 # instagram              = "//instagram.com/you"
@@ -69,7 +69,8 @@ gitalk_repo            = "your repo url"
 gitalk_owner           = "the owner of this repo"
 gitalk_admin           = ['a', 'list', 'of', 'administrator']
 
-avatar                 = "img/avatar.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+favicon                = "/favicon.png"
+avatar                 = "img/avatar.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 # gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
 
 # The following are DEPRECATED.
