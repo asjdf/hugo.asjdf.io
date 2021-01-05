@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 title = "宅男的天台"
 author = "asjdf"
 theme = "Hugo-Uno"
-builddrafts = fals
+builddrafts = false
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
 [indexes]
