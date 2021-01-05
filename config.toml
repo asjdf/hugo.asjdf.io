@@ -4,6 +4,9 @@ title = "宅男的天台"
 author = "asjdf"
 theme = "hugo-uno"
 builddrafts = false
+canonifyurls = true
+contentdir = "content"
+publishdir = "public"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
 [indexes]
