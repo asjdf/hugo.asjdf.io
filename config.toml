@@ -2,7 +2,7 @@ baseURL = "https://homeboyc.cn/"
 languageCode = "zh-cn"
 title = "宅男的天台"
 author = "asjdf"
-theme = "hugo-uno"
+theme = "hugo-tranquilpeak-theme"
 builddrafts = false
 canonifyurls = true
 contentdir = "content"
@@ -13,9 +13,35 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
    category = "categories"
    tag = "tags"
 [Params]
-  AuthorName = "asjdf"
+  AuthorName = "杨成锴"
   github = "asjdf"
   email = "homeboyc@foxmail.com"
   description = "很高兴在这里见到你"
   cover = "/images/background-cover.jpg"
   logo = "/images/logo.jpg"
+
+[author]
+  name = "杨成锴"
+  bio = "很高兴在这里见到你，杨成锴也叫asjdf也叫Atom也叫Homeboyc 正在杭电念书中"
+  job = "Student"
+  location = "Hangzhou, China"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  gravatarEmail = "homeboyc@foxmail.com"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  picture = "https://i.loli.net/2021/01/05/SJtIuyFhaY8oH1d.jpg"
+  # Your Twitter username without the @. E.g : thibaudlepretre
+  # twitter = "thibaudlepretre"
+  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
+  # googlePlus = "+ThibaudLepretre"
+  github = "asjdf"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[[menu.links]]
+  weight = 1
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/asjdf"
