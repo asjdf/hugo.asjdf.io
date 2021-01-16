@@ -42,7 +42,7 @@
             <script type="text/javascript">
                 const gitalk = new Gitalk({
                   id: "Comment",
-                  title: "{{ partial "page-heading" . }}",
+                  title: "{{.Title}}",
                   clientID: "{{ .Site.Params.gitalk_clientID }}",
                   clientSecret: "{{ .Site.Params.gitalk_clientSecret }}",
                   repo: "{{ .Site.Params.gitalk_repo }}",
