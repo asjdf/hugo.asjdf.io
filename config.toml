@@ -61,13 +61,13 @@ piwik                  = false                         # If true, Piwik integrat
 # piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
 # piwik_id             = 2                             # Id of your site in Piwik
 
-gitalk                 = false
+gitalk                 = true
 # if gitalk is true, the following params should be set. These parameters could be retrieved from github OAuth
-gitalk_clientID        = "your client id"
-gitalk_clientSecret    = "your client secret"
-gitalk_repo            = "your repo url"
-gitalk_owner           = "the owner of this repo"
-gitalk_admin           = ['a', 'list', 'of', 'administrator']
+gitalk_clientID        = "d567ff8bc4759c154b84"
+gitalk_clientSecret    = "27dd2e23ddf976cdd24f41d668b18401bb593a86"
+gitalk_repo            = "https://github.com/asjdf/hugo.asjdf.io"
+gitalk_owner           = "asjdf"
+gitalk_admin           = ['asjdf']
 
 favicon                = "/favicon.png"
 avatar                 = "img/avatar.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
