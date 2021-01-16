@@ -65,7 +65,7 @@ gitalk                 = true
 # if gitalk is true, the following params should be set. These parameters could be retrieved from github OAuth
 gitalk_clientID        = "d567ff8bc4759c154b84"
 gitalk_clientSecret    = "27dd2e23ddf976cdd24f41d668b18401bb593a86"
-gitalk_repo            = "https://github.com/asjdf/hugo.asjdf.io"
+gitalk_repo            = "hugo.asjdf.io"
 gitalk_owner           = "asjdf"
 gitalk_admin           = ['asjdf']
 
