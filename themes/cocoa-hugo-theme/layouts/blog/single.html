@@ -41,7 +41,7 @@
             <div id="gitalk-container"></div>
             <script type="text/javascript">
                 const gitalk = new Gitalk({
-                  id: "{{.Title}}",
+                  id: md5(window.location.hash),
                   title: "{{.Title}}",
                   clientID: "{{ .Site.Params.gitalk_clientID }}",
                   clientSecret: "{{ .Site.Params.gitalk_clientSecret }}",
