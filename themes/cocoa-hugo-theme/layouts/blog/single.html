@@ -41,7 +41,7 @@
             <div id="gitalk-container"></div>
             <script type="text/javascript">
                 const gitalk = new Gitalk({
-                  id: location.pathname,
+                  id: "{{.Title}}",
                   title: "{{.Title}}",
                   clientID: "{{ .Site.Params.gitalk_clientID }}",
                   clientSecret: "{{ .Site.Params.gitalk_clientSecret }}",
