@@ -94,10 +94,6 @@
             <a href="mailto:{{ .Site.Params.email }}"><img class="icon" src="/img/email.svg" alt="email" /></a>
         {{ end }}
 
-        {{ if .Site.Params.ICP }}
-            <a href="https://beian.miit.gov.cn">{{ .Site.Params.ICP }}</a>
-        {{ end }}
-
         {{ $RSSLink := "" }}
         {{ with .OutputFormats.Get "RSS" }}
         {{ $RSSLink = .RelPermalink }}
@@ -110,6 +106,10 @@
             {{ range .Translations }}
                 <a href="{{ .Permalink }}"><img class="icon flag" src="/img/flags/{{ .Lang }}.svg"></a>
             {{ end }}
+        {{ end }}
+
+        {{ if .Site.Params.ICP }}
+            <a href="https://beian.miit.gov.cn">{{ .Site.Params.ICP }}</a>
         {{ end }}
         </div>
     </div>
