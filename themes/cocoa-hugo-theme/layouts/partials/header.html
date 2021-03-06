@@ -111,6 +111,11 @@
         {{ if .Site.Params.ICP }}
             <a href="https://beian.miit.gov.cn">{{ .Site.Params.ICP }}</a>
         {{ end }}
+        {{ if .Site.Params.beian }}
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35030302354429">
+                <img src="./img/beian-icon.png" alt="公安网备图标" style="height: 1em;">{{ .Site.Params.beian }}
+            </a>
+        {{ end }}
         </div>
     </div>
 </section>
