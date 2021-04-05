@@ -13,5 +13,5 @@ draft: false
 
 [小吴玉麒麟](https://blog.mjclouds.com/)
 
-
+[狂霸蛋皇——一个浙外中文系的小姐姐](http://kloylolo.cn/)
 
