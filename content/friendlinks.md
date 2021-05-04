@@ -15,3 +15,6 @@ draft: false
 
 [狂霸蛋皇——一个浙外中文系的小姐姐](http://kloylolo.cn/)
 
+[liki](https://me.liki.link)
+
+[0x4qE](https://0727.site/)
